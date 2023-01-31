@@ -18,13 +18,13 @@ export default function Hero() {
           <Popover>
             <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
               <nav
-                className="relative flex items-center justify-between sm:h-10 "
+                className="relative flex items-center justify-between sm:h-10  "
                 aria-label="Global"
               >
                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                   <div className="flex w-full items-center justify-between md:w-auto">
                     <a href="#">
-                      <span className="sr-only">Your Company</span>
+                      <span className="sr-only">RoboFest</span>
                       <img
                         alt="Your Company"
                         className="h-8 w-auto sm:h-10"
@@ -115,9 +115,12 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                The Indian Robo Olympiad 2023 is a competition for engineering
+                students to design and build innovative robots. Hosted by the
+                Centre of Excellence in AI and Robotics at VIT-AP University,
+                this event is an opportunity to showcase your skills in robotics
+                and artificial intelligence. Join us and see what you can
+                create!
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -144,6 +147,45 @@ export default function Hero() {
               className="max-w-lg xl:-mt-36 lg:-mt-36"
             />
           </main>
+
+          <div className="bg-white">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+              <div className="">
+                <div>
+                  <h2 className="text-3xl font-semibold text-gray-800 uppercase tracking-wide">
+                    About
+                  </h2>
+                  {/* 2 paras inside div, side by side in large screens and one after another in small screens */}
+                  <div className="flex flex-col xl:flex-row lg:flex-row">
+                    <p className="mt-3 text-base text-gray-500 mr-5">
+                      IndianRoboOlympiad (IRO-2023), is being conducted by
+                      Centre of Excellence in AI and Robotics at VIT-AP
+                      University, Near Vijayawada, Andhra Pradesh. The
+                      combination of Robotics with AI is useful in systems
+                      performing complex tasks. Automation through AI and
+                      Robotics had a great positive impact on the growth and
+                      proft of many industries. Today the applications have
+                      extended beyond Industry and has touched our personal life
+                      too.
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      IRO 2023 is a competition for Engineering Students of all
+                      parts of India to build a variety of robots based on
+                      principles of Science, Technology, Engineering, Math,
+                      Computer Science and AI. Students are encouraged to
+                      design, construct, and program the robots such as
+                      interactive medical robotic devices, robots that paint, do
+                      artworks, play music, sing, dance, kitchen robots,
+                      agriculture robots, cooking robot, customer care robots
+                      etc. Students can bring any robotic kit for the
+                      construction of robots and they can use any programming
+                      language to program the Robots.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
