@@ -46,10 +46,11 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3" id="about">
                   <a
-                    href="#"
+                  target="_blank"
+                    href="https://docs.google.com/document/d/1WrYzucaGiYEl5BjOqQc2yaQK_toPDe0P/edit?usp=sharing&ouid=118002901074296047864&rtpof=true&sd=true"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                   >
-                    Contact
+                    Rules
                   </a>
                 </div>
               </div>

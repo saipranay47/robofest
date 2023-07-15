@@ -8,8 +8,8 @@ const navigation = [
   { name: "Home", href: "#" },
   { name: "About", href: "#about" },
   { name: "Events", href: "#events" },
-  { name: "Timeline", href: "#" },
-  { name: "Sponsors", href: "#" },
+  // { name: "Timeline", href: "#" },
+  // { name: "Sponsors", href: "#" },
 ];
 function Navbar() {
   return (
