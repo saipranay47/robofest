@@ -18,14 +18,13 @@ export default function Hero() {
     <div className="relative bg-white">
       <div className="mx-auto max-w-7xl">
         <div className="relative  bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full">
-          
-
           <main className="mx-auto mt-10 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex flex-col xl:flex-row lg:flex-row items-cente xl:items-start lg:items-start">
             <div className="sm:text-center lg:text-left mt-10">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Indian Robot Olympaid</span>{" "}
+                <br />
                 <span className="block text-indigo-600 xl:inline">
-                  April 4 - 8 2023
+                  12-August-2023
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
@@ -45,7 +44,7 @@ export default function Hero() {
                     Register now
                   </a>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
+                <div className="mt-3 sm:mt-0 sm:ml-3" id="about">
                   <a
                     href="#"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
@@ -62,7 +61,7 @@ export default function Hero() {
             />
           </main>
 
-          <div className="bg-white" id="about">
+          <div className="bg-white">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
               <div className="">
                 <div>
@@ -82,7 +81,7 @@ export default function Hero() {
                       extended beyond Industry and has touched our personal life
                       too.
                     </p>
-                    <p className="mt-3 text-base text-gray-500">
+                    <p className="mt-3 text-base text-gray-500" id="events">
                       IRO 2023 is a competition for Engineering Students of all
                       parts of India to build a variety of robots based on
                       principles of Science, Technology, Engineering, Math,

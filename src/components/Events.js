@@ -1,11 +1,12 @@
 import React from 'react'
-import inovatex from "../images/inovatex.webp";
-import PixelCraft from "../images/PixelCraft.webp";
-import robogame from "../images/robogame.webp";
+import Robosoce from "../images/robosoce.jpeg";
+import Robofight from "../images/robofight.jpeg";
+import Robokabbadi from "../images/robokabbadi.avif";
+import robogame from "../images/robogame.png";
 
 function Events() {
   return (
-    <div id='events'>
+    <div id="events">
       <h1 className="lg:text-5xl text-2xl p-2 text-center font-bold">
         RoboFest Events: <br /> A Creative Convergence of Coding, Art, and
         Robotics
@@ -22,23 +23,20 @@ function Events() {
                 <div class="lg:pr-24 md:pr-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      InnovateX – Hardware & <br /> Software Project Expo
+                      Robo Soccer:
                     </p>
                     <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
-                      The event aims to provide a unique platform for
-                      participants to exhibit either hardware or software-based
-                      innovative projects related to Robotics. The objective of
-                      InnovateX is to foster creativity, innovation, and
-                      technological advancement among participants by giving
-                      them an opportunity to present their projects and ideas in
-                      the field of Robotics. InnovateX is a one-round event,
-                      where participants will demonstrate their developed
-                      product in front of a distinguished panel of judges. The
-                      projects will be evaluated based on the level of
-                      innovation, technical feasibility, and practicality by the
-                      panel of judges. Participants will have the chance to
-                      interact with professionals, gain insights into the
-                      industry and create potential career opportunities.
+                      Get ready for the action-packed Robo Soccer event, where
+                      teams compete using their specially designed robots in a
+                      soccer-like game. These robots, controlled manually by
+                      human operators, maneuver across the field, dribbling the
+                      ball, passing to teammates, and aiming to score goals in
+                      the opponent's net. With a combination of strategic
+                      gameplay and precise robot control, teams battle it out to
+                      showcase their skills in this futuristic sport. The event
+                      combines elements of robotics, teamwork, and
+                      sportsmanship, creating an engaging and thrilling
+                      experience for both participants and spectators.
                     </p>
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
@@ -58,48 +56,39 @@ function Events() {
                   </div>
                 </div>
                 <img
-                  src={inovatex}
+                  src={Robosoce}
                   alt=""
-                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl"
+                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl border shadow-sm"
                 />
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section
-        aria-labelledby="feature-five"
-        id="feature-five"
-        class="bg-white my-10"
-      >
+
         <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:flex">
-          <div class="lg:w-1/2">
-            <div class="lg:sticky">
-              <div>
-                <div class="lg:pr-24 md:pr-12">
+          <div class="">
+            <div class=" top-5 pt-8 pb-5 lg:sticky">
+              <div className="flex flex-wrap">
+                <img
+                  src={Robofight}
+                  alt=""
+                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl border shadow-sm"
+                />
+                <div class="lg:pl-24 md:pl-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      Pixel Craft
+                      Robo Fight:
                     </p>
-                    <br />
-                    <img
-                      src={PixelCraft}
-                      alt=""
-                      className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl"
-                    />
-                    <br />
-                    <p class="max-w-xl mt-4 text-lg tracking-tight text-gray-600">
-                      Pixel Craft is a one-of-a-kind event that brings together
-                      participants from different backgrounds to showcase their
-                      coding skills and artistic abilities. At Pixel Craft,
-                      participants will put their coding skills to the test by
-                      creating visually stunning Robot artwork using only code.
-                      With a wide range of tools and techniques at their
-                      disposal, participants are encouraged to push their coding
-                      creativity and create a unique and impressive Robot
-                      artwork. With three different rounds, this competition is
-                      designed to push your skills to the limit and help you
-                      discover the full potential of your Robot art creativity.
+                    <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
+                      Prepare for heart-pounding battles in the Robo Fight
+                      event, where two robots go head-to-head in intense combat.
+                      These robotic gladiators will engage in thrilling clashes,
+                      showcasing their strength, agility, and strategic prowess.
+                      The objective is simple: be the last robot standing.
+                      Participants will unleash their robots' weaponry and
+                      maneuvering abilities to outsmart and overpower their
+                      opponents. Spectators will witness sparks fly and gears
+                      clash as these mechanical warriors vie for supremacy.
                     </p>
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
@@ -121,74 +110,55 @@ function Events() {
               </div>
             </div>
           </div>
-          <div class="lg:w-1/2">
-            <div class="flex-shrink-0">
-              <div>
-                <ul
-                  class="grid grid-cols-1 gap-12 mt-6 list-none lg:mt-0 lg:gap-24"
-                  role="list"
-                >
-                  <li>
-                    <div className="flex items-center">
-                      <div class="flex items-center justify-center w-12 h-12 text-black bg-gray-100 rounded-xl">
-                        ❖
-                      </div>
-                      <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 1
-                      </p>
-                    </div>
-                    <div class="mt-2 text-base text-gray-500">
-                      In the first round, participants will demonstrate their
-                      fundamental coding abilities by creating simple, yet
-                      eye-catching Robot artwork. This initial stage allows
-                      competitors to showcase their essential skills while
-                      establishing a solid foundation for the upcoming
-                      challenges.
-                    </div>
-                  </li>
-                  <li>
-                    <div className="flex items-center">
-                      <div class="flex items-center justify-center w-12 h-12 text-black bg-gray-100 rounded-xl">
-                        ❖
-                      </div>
-                      <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 2
-                      </p>
-                    </div>
-                    <div class="mt-2 text-base text-gray-500">
-                      As the competition intensifies, Round 2 demands
-                      participants to produce more intricate Robot artwork,
-                      highlighting their advanced coding expertise. In this
-                      stage, competitors will face a higher level of difficulty,
-                      emphasizing the importance of innovation and
-                      problem-solving abilities.
-                    </div>
-                  </li>
-                  <li>
-                    <div className="flex items-center">
-                      <div class="flex items-center justify-center w-12 h-12 text-black bg-gray-100 rounded-xl">
-                        ❖
-                      </div>
-                      <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 3
-                      </p>
-                    </div>
-                    <div class="mt-2 text-base text-gray-500">
-                      The grand finale of the competition, Round 3, challenges
-                      participants to create an extraordinary digital
-                      masterpiece, embodying the pinnacle of their coding and
-                      artistic prowess. This ultimate test of skill offers an
-                      exceptional opportunity for participants to exhibit their
-                      creativity, broaden their expertise, and compete for
-                      amazing prizes in a celebration of talent and innovation.
-                    </div>
-                  </li>
-                </ul>
+        </div>
+
+        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:flex">
+          <div class="">
+            <div class=" top-5 pt-8 pb-5 lg:sticky">
+              <div className="flex flex-wrap">
+                <div class="lg:pr-24 md:pr-12 lg:max-w-2xl">
+                  <div>
+                    <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
+                      Robo Kabaddi:
+                    </p>
+                    <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
+                      Experience the electrifying fusion of Kabaddi and
+                      cutting-edge robotics in Robo Kabaddi. Teams showcase
+                      their robots' agility, strategy, and power as they raid
+                      opponents' territories, aiming to transfer cubes without
+                      being pushed out. Strategic decision-making, teamwork, and
+                      swift reactions are essential to gain an advantage.
+                      Witness the captivating spectacle of intense competition
+                      and futuristic technology in Robo Kabaddi.
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
+                    <a
+                      href="#"
+                      class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-indigo-600 border-2 border-indigo-600 rounded-full nline-flex hover:bg-transparent hover:border-indigo-600 hover:text-indigo-600 focus:outline-none lg:w-auto focus-visible:outline-indigo-600 text-sm focus-visible:ring-indigo-600"
+                    >
+                      Register Now
+                    </a>
+                    {/* <a
+                      href="#"
+                      class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                    >
+                      Learn more
+                      <span aria-hidden="true"> → </span>
+                    </a> */}
+                  </div>
+                </div>
+                <img
+                  src={Robokabbadi}
+                  alt=""
+                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl border shadow-sm"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
+      
       <section
         aria-labelledby="feature-five"
         id="feature-five"
@@ -201,7 +171,7 @@ function Events() {
                 <div class="lg:pr-24 md:pr-12">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      Code Combat Event
+                      Robo Race
                     </p>
                     <br />
                     <img
@@ -211,13 +181,11 @@ function Events() {
                     />
                     <br />
                     <p class="max-w-xl mt-4 text-lg tracking-tight text-gray-600">
-                      Code Combat is a programming competition where teams
-                      create AI-driven bots to compete in a 2D grid game. The
-                      goal is to destroy the opposing team's headquarters while
-                      managing resources like building structures, producing
-                      units, and attacking enemies. Participants analyze the
-                      given AI agent's basic code and strategize the best
-                      actions to dominate the game.
+                      Welcome to the exhilarating Robo Race event, where
+                      participants will put their robots to the ultimate test on
+                      a series of challenging paths. This thrilling competition
+                      consists of three rounds, each designed to push the limits
+                      of robot maneuverability and problem-solving.
                     </p>
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
@@ -240,10 +208,10 @@ function Events() {
             </div>
           </div>
           <div class="lg:w-1/2">
-            <div class="flex-shrink-0">
+            <div class="flex-shrink-0 flex mt-10">
               <div>
                 <ul
-                  class="grid grid-cols-1 gap-12 mt-6 list-none lg:mt-0 lg:gap-24"
+                  class="grid grid-cols-1 gap-8 mt-6 list-none lg:mt-0 lg:gap-16"
                   role="list"
                 >
                   <li>
@@ -252,15 +220,12 @@ function Events() {
                         ❖
                       </div>
                       <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 1
+                        Round 1: Obstacle Course
                       </p>
                     </div>
                     <div class="mt-2 text-base text-gray-500">
-                      The first level of the Code Combat competition is designed
-                      to introduce participants to the basics of programming in
-                      a fun and engaging way. Participants are required to
-                      create a strategy and get familiarize with the
-                      environment.
+                      Robots navigate a path strewn with cardboard obstacles,
+                      testing their agility, decision-making, and adaptability.
                     </div>
                   </li>
                   <li>
@@ -269,16 +234,12 @@ function Events() {
                         ❖
                       </div>
                       <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 2
+                        Round 2: Sand Path
                       </p>
                     </div>
                     <div class="mt-2 text-base text-gray-500">
-                      The second level of the competition is more challenging
-                      and requires participants to use advanced programming
-                      techniques to develop effective strategies for their
-                      virtual robots. The robots are required to navigate a more
-                      complex battlefield, avoid obstacles, and engage in combat
-                      with other robots.
+                      Robots face a sandy path with additional obstacles,
+                      demanding speed, agility, and problem-solving skills.
                     </div>
                   </li>
                   <li>
@@ -287,15 +248,13 @@ function Events() {
                         ❖
                       </div>
                       <p class="ml-2 text-xl font-medium leading-6 text-black">
-                        Round 3
+                        Round 3: Mystery Path
                       </p>
                     </div>
                     <div class="mt-2 text-base text-gray-500">
-                      The third level of the competition is the most advanced
-                      and requires participants to use machine learning and
-                      other cutting-edge techniques to develop advanced
-                      algorithms that can adapt to changing conditions on the
-                      battlefield.
+                      Participants tackle a secretive path filled with
+                      surprises, twists, and new obstacles, showcasing
+                      versatility and quick thinking.
                     </div>
                   </li>
                 </ul>
