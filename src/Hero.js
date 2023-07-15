@@ -21,7 +21,7 @@ export default function Hero() {
           <main className="mx-auto mt-10 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex flex-col xl:flex-row lg:flex-row items-cente xl:items-start lg:items-start">
             <div className="sm:text-center lg:text-left mt-10">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Robo Fest 2023</span> <br />
+                <span className="block xl:inline">Robo Fest 2023</span> <br className="hidden md:block" />
                 <span className="block text-indigo-600 xl:inline">
                   12-August
                 </span>

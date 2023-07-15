@@ -69,12 +69,7 @@ function Events() {
           <div class="">
             <div class=" top-5 pt-8 pb-5 lg:sticky">
               <div className="flex flex-wrap">
-                <img
-                  src={Robofight}
-                  alt=""
-                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl border shadow-sm"
-                />
-                <div class="lg:pl-24 md:pl-12 lg:max-w-2xl">
+                <div class="lg:pr-24 md:pr-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
                       Robo Fight
@@ -99,15 +94,13 @@ function Events() {
                     >
                       Register Now
                     </a>
-                    {/* <a
-                      href="#"
-                      class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                    >
-                      Learn more
-                      <span aria-hidden="true"> → </span>
-                    </a> */}
                   </div>
                 </div>
+                <img
+                  src={Robofight}
+                  alt=""
+                  className="max-w-lg lg:rounded-lg w-full lg:p-0 p-2 rounded-2xl border shadow-sm"
+                />
               </div>
             </div>
           </div>
@@ -141,13 +134,6 @@ function Events() {
                     >
                       Register Now
                     </a>
-                    {/* <a
-                      href="#"
-                      class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                    >
-                      Learn more
-                      <span aria-hidden="true"> → </span>
-                    </a> */}
                   </div>
                 </div>
                 <img
