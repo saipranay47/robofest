@@ -8,8 +8,7 @@ function Events() {
   return (
     <div id="events">
       <h1 className="lg:text-5xl text-2xl p-2 text-center font-bold">
-        RoboFest Events: <br /> A Creative Convergence of Coding, Art, and
-        Robotics
+        RoboFest Events
       </h1>
       <section
         aria-labelledby="feature-five"
@@ -23,7 +22,7 @@ function Events() {
                 <div class="lg:pr-24 md:pr-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      Robo Soccer:
+                      Robo Soccer
                     </p>
                     <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
                       Get ready for the action-packed Robo Soccer event, where
@@ -41,7 +40,8 @@ function Events() {
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
                     <a
-                      href="#"
+                      href="https://forms.gle/bmhRfRXG3uDD82kB8"
+                      target="_blank"
                       class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-indigo-600 border-2 border-indigo-600 rounded-full nline-flex hover:bg-transparent hover:border-indigo-600 hover:text-indigo-600 focus:outline-none lg:w-auto focus-visible:outline-indigo-600 text-sm focus-visible:ring-indigo-600"
                     >
                       Register Now
@@ -77,7 +77,7 @@ function Events() {
                 <div class="lg:pl-24 md:pl-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      Robo Fight:
+                      Robo Fight
                     </p>
                     <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
                       Prepare for heart-pounding battles in the Robo Fight
@@ -93,7 +93,8 @@ function Events() {
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
                     <a
-                      href="#"
+                      href="https://forms.gle/bmhRfRXG3uDD82kB8"
+                      target="_blank"
                       class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-indigo-600 border-2 border-indigo-600 rounded-full nline-flex hover:bg-transparent hover:border-indigo-600 hover:text-indigo-600 focus:outline-none lg:w-auto focus-visible:outline-indigo-600 text-sm focus-visible:ring-indigo-600"
                     >
                       Register Now
@@ -119,7 +120,7 @@ function Events() {
                 <div class="lg:pr-24 md:pr-12 lg:max-w-2xl">
                   <div>
                     <p class="text-2xl font-medium tracking-tight text-black sm:text-4xl ">
-                      Robo Kabaddi:
+                      Robo Kabaddi
                     </p>
                     <p class="max-w-34xl mt-4 text-lg tracking-tight text-gray-600">
                       Experience the electrifying fusion of Kabaddi and
@@ -134,7 +135,8 @@ function Events() {
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
                     <a
-                      href="#"
+                      href="https://forms.gle/bmhRfRXG3uDD82kB8"
+                      target="_blank"
                       class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-indigo-600 border-2 border-indigo-600 rounded-full nline-flex hover:bg-transparent hover:border-indigo-600 hover:text-indigo-600 focus:outline-none lg:w-auto focus-visible:outline-indigo-600 text-sm focus-visible:ring-indigo-600"
                     >
                       Register Now
@@ -158,7 +160,7 @@ function Events() {
           </div>
         </div>
       </section>
-      
+
       <section
         aria-labelledby="feature-five"
         id="feature-five"
@@ -190,7 +192,8 @@ function Events() {
                   </div>
                   <div class="flex flex-col items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
                     <a
-                      href="#"
+                      href="https://forms.gle/bmhRfRXG3uDD82kB8"
+                      target="_blank"
                       class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-indigo-600 border-2 border-indigo-600 rounded-full nline-flex hover:bg-transparent hover:border-indigo-600 hover:text-indigo-600 focus:outline-none lg:w-auto focus-visible:outline-indigo-600 text-sm focus-visible:ring-indigo-600"
                     >
                       Register Now

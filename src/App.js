@@ -7,14 +7,13 @@ import Hero from "./Hero";
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero />
-      <Events/>
+      <Events />
       {/* <Timeline/> */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
 
 export default App;
-

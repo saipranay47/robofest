@@ -21,24 +21,24 @@ export default function Hero() {
           <main className="mx-auto mt-10 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex flex-col xl:flex-row lg:flex-row items-cente xl:items-start lg:items-start">
             <div className="sm:text-center lg:text-left mt-10">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Indian Robot Olympaid</span>{" "}
-                <br />
+                <span className="block xl:inline">Robo Fest 2023</span> <br />
                 <span className="block text-indigo-600 xl:inline">
-                  12-August-2023
+                  12-August
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                The Indian Robo Olympiad 2023 is a competition for engineering
-                students to design and build innovative robots. Hosted by the
-                Centre of Excellence in AI and Robotics at VIT-AP University,
-                this event is an opportunity to showcase your skills in robotics
-                and artificial intelligence. Join us and see what you can
-                create!
+                Robo Fest is a celebration of innovation, robotics, and friendly
+                competition. This event provides a platform for participants to
+                showcase their technical skills, problem-solving abilities, and
+                creative thinking. Beyond the competitive aspect, the event also
+                fosters camaraderie and collaboration among like-minded
+                individuals passionate about robotics.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="https://forms.gle/bmhRfRXG3uDD82kB8"
+                    target="_blank"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                   >
                     Register now
@@ -46,7 +46,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3" id="about">
                   <a
-                  target="_blank"
+                    target="_blank"
                     href="https://docs.google.com/document/d/1WrYzucaGiYEl5BjOqQc2yaQK_toPDe0P/edit?usp=sharing&ouid=118002901074296047864&rtpof=true&sd=true"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                   >
@@ -72,28 +72,21 @@ export default function Hero() {
                   {/* 2 paras inside div, side by side in large screens and one after another in small screens */}
                   <div className="flex flex-col xl:flex-row lg:flex-row">
                     <p className="mt-3 text-base text-gray-500 mr-5">
-                      IndianRoboOlympiad (IRO-2023), is being conducted by
-                      Centre of Excellence in AI and Robotics at VIT-AP
-                      University, Near Vijayawada, Andhra Pradesh. The
-                      combination of Robotics with AI is useful in systems
-                      performing complex tasks. Automation through AI and
-                      Robotics had a great positive impact on the growth and
-                      proft of many industries. Today the applications have
-                      extended beyond Industry and has touched our personal life
-                      too.
+                      Robo Fest celebrates the spirit of innovation, robotics,
+                      and friendly competition. It provides a platform for
+                      participants to showcase their technical skills,
+                      problem-solving abilities, and creative thinking. Beyond
+                      the competitive aspect, the event also fosters camaraderie
+                      and collaboration among like-minded individuals passionate
+                      about robotics.
                     </p>
                     <p className="mt-3 text-base text-gray-500" id="events">
-                      IRO 2023 is a competition for Engineering Students of all
-                      parts of India to build a variety of robots based on
-                      principles of Science, Technology, Engineering, Math,
-                      Computer Science and AI. Students are encouraged to
-                      design, construct, and program the robots such as
-                      interactive medical robotic devices, robots that paint, do
-                      artworks, play music, sing, dance, kitchen robots,
-                      agriculture robots, cooking robot, customer care robots
-                      etc. Students can bring any robotic kit for the
-                      construction of robots and they can use any programming
-                      language to program the Robots.
+                      Whether you are a participant or a spectator, Robo Fest
+                      promises an unforgettable experience filled with
+                      high-octane action, breathtaking displays of robotic
+                      prowess, and the thrill of witnessing cutting-edge
+                      technology in action. Join us as we celebrate the future
+                      of robotics and the limitless possibilities it holds.
                     </p>
                   </div>
                 </div>

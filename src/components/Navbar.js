@@ -48,7 +48,8 @@ function Navbar() {
               </a>
             ))}
             <a
-              href="#"
+              href="https://forms.gle/bmhRfRXG3uDD82kB8"
+              target="_blank"
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
               Register Now
@@ -94,7 +95,8 @@ function Navbar() {
               ))}
             </div>
             <a
-              href="#"
+              href="https://forms.gle/bmhRfRXG3uDD82kB8"
+              target="_blank"
               className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
             >
               Register Now
